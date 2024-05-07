@@ -33,18 +33,18 @@ const  checkProvider = () => {
             && boxes[arrCombination[i][1]].innerHTML === 'X'
             && boxes[arrCombination[i][2]].innerHTML === 'X')
         {
-            message = 'Победили КРЕСТИКИ'
+            message = 'Перемогли Хрестики'
             modalWindow(message)
         }
         if (boxes[arrCombination[i][0]].innerHTML === 'O'
             && boxes[arrCombination[i][1]].innerHTML === 'O'
             && boxes[arrCombination[i][2]].innerHTML === 'O')
         {
-            message = 'Победили НОЛИКИ'
+            message = 'Перемогли НОЛИКИ'
             modalWindow(message)
         }
         if (numberMoves === 9) {
-            message = 'НИЬЧЯ'
+            message = 'нічия'
             modalWindow(message)
         }
     })
