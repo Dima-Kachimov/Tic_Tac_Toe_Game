@@ -40,7 +40,7 @@ const  checkProvider = () => {
             && boxes[arrCombination[i][1]].innerHTML === 'O'
             && boxes[arrCombination[i][2]].innerHTML === 'O')
         {
-            message = 'Перемогли НОЛИКИ'
+            message = 'Перемогли НУЛИКИ'
             modalWindow(message)
         }
         if (numberMoves === 9) {
